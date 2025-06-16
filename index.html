@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animated Job Board</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Job Board</h1>
+
+    <form id="jobForm">
+      <input type="text" id="title" placeholder="Job Title" required />
+      <input type="text" id="company" placeholder="Company Name" required />
+      <textarea id="description" placeholder="Job Description" required></textarea>
+      <button type="submit">Add Job</button>
+    </form>
+
+    <div id="jobList" class="job-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
